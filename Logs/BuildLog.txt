@@ -1,0 +1,518 @@
+Warning: BuildConfiguration 'tinyracing-asmjs' specified 'EnableBurst', but target (asmjs) does not support burst yet. Not using burst.
+No asmdef found for Unity.Tiny.Interpolation
+No asmdef found for Unity.ZeroJobs
+[       1s] Executed build program. Created build graph with 1135 nodes.
+[     2s] Build frontend of artifacts\tundra_tinyracing-asmjs_b77.dag ran (build file timestamp changed: settings/tinyracing-asmjs.json)
+[           0s] Delete 8 artifact files that are no longer in use. (like artifacts\TinyRacing\tinyracing-asmjs_stripped\il2cpp-src\TinyMethods.cpp)
+[  12/1107  0s] WriteResponseFile artifacts/rsp/446084057628570723.rsp
+[  13/1107  0s] WriteResponseFile artifacts/rsp/12832933406201750851.rsp
+[  14/1107  0s] WriteResponseFile artifacts/rsp/16981781996215702213.rsp
+[  15/1107  0s] WriteResponseFile artifacts/rsp/8569598345632828443.rsp
+[  16/1107  0s] WriteResponseFile artifacts/rsp/13483788842511151637.rsp
+[  17/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/46b433b264c69cbd39f04ad2e5d12be8
+[  18/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/fae54c3c88968df8abe629c2889be7bd
+[  19/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/97162039e7f37ef4ca7440c5715f50be
+[  20/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/c8d2de3e6bc4aa1b85594883919778f3
+[  21/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/673786bc8e761f5387642af81bc5c7cd
+[  22/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/ab0761da2a51c32e2615a68509584819
+[  23/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/2d64951bcbe1207bbc4428bd48372e6e
+[  24/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/7e32ce129f8c57e7e00f7c1fa375250b
+[  25/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/bc3c5d55c3bacd14b54a3db8cf949399
+[  26/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/449946fd57371d5c42920bb00a50bf55
+[  27/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/909c715064827523f10db9020a99b895
+[  28/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/5801b2ed664acb1ae42f8a5bcdcd64e8
+[  29/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/280810710d6f05853ec42a19b495f691
+[  30/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/59358898b48609a23461e9c8b859ed2f
+[  31/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/c5ec4e826e38ad1393950d34d5dc9bde
+[  32/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/8df76df07a7373d6c0ad5c99f80b90e8
+[  33/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/ffaa5d7921d081cd42b1cc4d188f317a
+[  34/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/a5b5006c295bac1813f192b14f6259f6
+[  35/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/59d6638e4b7e8aaccc4fc9f5f426d4a2
+[  36/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/9c1f59a8469e55a0c310d07852af55cb
+[  37/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/6f8a0afafeb011d229556ecb72b64f2b
+[  38/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/af72d1c4fd8e9b256dff946a8bcfbdfb
+[  39/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/3e34a5381fe416054b1ef0781db8fa23
+[  40/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/fb938b7923ddc981c8055f0083baa709
+[  41/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/65d5fbc38183100ec77bafab84861788
+[  92/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/f24cae80b439bd77d3d4a0431ad79207
+[ 187/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/d85957014e39ac2b6633b84bfe644da6
+[ 501/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/2cd9007690621096b89af05f593f8663
+[ 583/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/ad9f50e074e96e6dcb06e0d003872bba
+[ 653/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/b428c1199fcb250b43ecc6508f5c7933
+[ 654/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/5b670003415d5cee62e802c8835f9b6a
+[ 674/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/Data/2de1e48a0df415974f1e4ab70eee6a39
+[ 677/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/kkh8/GCHandle.o
+[ 678/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/jmop/Debugger.o
+[ 679/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/sp7d/il2cpp-codegen.o
+[ 680/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/5t12/Console.o
+[ 681/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/5t12/Environment.o
+[ 682/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/3oq1/Interlocked.o
+[ 683/1107  7s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/5t12/Enum.o
+[ 684/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/5t12/Type.o
+[ 685/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/5t12/Math.o
+[ 686/1107  9s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/jmop/Stopwatch.o
+[ 687/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/5t12/GC.o
+[ 688/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/ckog/il2cpp-virtual-remap.o
+[ 689/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/ckog/il2cpp-api.o
+[ 690/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/ckog/il2cpp-benchmark-support.o
+[ 691/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/2q4c/Exception.o
+[ 692/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/2q4c/DebugMetadata.o
+[ 693/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/2q4c/PlatformInvoke.o
+[ 694/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/2q4c/Runtime.o
+[ 695/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/quxa/pch-cpp.o
+[ 696/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/2q4c/String.o
+[ 697/1107  2s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/2q4c/Type.o
+[ 698/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/2q4c/Reflection.o
+[ 699/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/zq8x/Initialize.o
+[ 700/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/2q4c/StackTrace.o
+[ 701/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/2q4c/TypeUniverse.o
+[ 702/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/zq8x/TimeZoneInfo.o
+[ 703/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/zq8x/Locale.o
+[ 704/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Allocator.o
+[ 705/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/zq8x/StackTrace.o
+[ 706/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Console.o
+[ 707/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/COM.o
+[ 708/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/ConditionVariable.o
+[ 709/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Debug.o
+[ 710/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Directory.o
+[ 711/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Cryptography.o
+[ 712/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/File.o
+[ 713/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Environment.o
+[ 714/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/CpuInfo.o
+[ 715/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Error.o
+[ 716/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Handle.o
+[ 717/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Event.o
+[ 718/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/LibraryLoader.o
+[ 719/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Memory.o
+[ 720/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Messages.o
+[ 721/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Locale.o
+[ 722/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Mutex.o
+[ 723/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/MemoryMappedFile.o
+[ 724/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/NativeMethods.o
+[ 725/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Path.o
+[ 726/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Semaphore.o
+[ 727/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Process.o
+[ 728/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/SystemCertificates.o
+[ 729/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/ConditionVariableTests.o
+[ 730/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Socket.o
+[ 731/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/COMTests.o
+[ 732/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/CryptographyTests.o
+[ 733/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/CpuInfoTests.o
+[ 734/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/DirectoryTests.o
+[ 735/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/EnvironmentTests.o
+[ 736/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/ErrorTests.o
+[ 737/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/ConsoleTests.o
+[ 738/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/DebugTests.o
+[ 739/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/FileTests.o
+[ 740/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/EventTests.o
+[ 741/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/LocaleTests.o
+[ 742/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/MainTestRunner.o
+[ 743/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/MemoryMappedFileTests.o
+[ 744/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/LibraryLoaderTests.o
+[ 745/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/MutexTests.o
+[ 746/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/MemoryTests.o
+[ 747/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/MessagesTests.o
+[ 748/1107  2s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/PathTests.o
+[ 749/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/ProcessTests.o
+[ 750/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/NativeMethodsTests.o
+[ 751/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/SocketTests.o
+[ 752/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/SemaphoreTests.o
+[ 753/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/TimeTests.o
+[ 754/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/ThreadLocalValueTests.o
+[ 755/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/ThreadTests.o
+[ 756/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/ThreadLocalValue.o
+[ 757/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/usd2/TimeZoneInfoTests.o
+[ 758/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Thread.o
+[ 759/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/TimeZone.o
+[ 760/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/TimeZoneInfo.o
+[ 761/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/8u4y/SocketBridge.o
+[ 762/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/0mhp/Time.o
+[ 763/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vn11/ConditionVariable.o
+[ 764/1107  2s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/COM.o
+[ 765/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vn11/Event.o
+[ 766/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vn11/CrashHelpers.o
+[ 767/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vn11/Error.o
+[ 768/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/CrashHelpers.o
+[ 769/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/CpuInfo.o
+[ 770/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/Environment.o
+[ 771/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/Initialize.o
+[ 772/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/File.o
+[ 773/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/Handle.o
+[ 774/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/MarshalStringAlloc.o
+[ 775/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/Debug.o
+[ 776/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/MemoryMappedFile.o
+[ 777/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/Process.o
+[ 778/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/SocketImpl.o
+[ 779/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/SocketBridge.o
+[ 780/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/WindowsRuntime.o
+[ 781/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vn11/LibraryLoader.o
+[ 782/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/l4if/Automation.o
+[ 783/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/SystemCertificates.o
+[ 784/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vt23/TimeZoneInfo.o
+[ 785/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/l4if/Debug.o
+[ 786/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/l4if/Environment.o
+[ 787/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/l4if/File.o
+[ 788/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/l4if/Initialize.o
+[ 789/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/l4if/TimeZoneInfo.o
+[ 790/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/l4if/Process.o
+[ 791/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/l4if/Lifecycle.o
+[ 792/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/l4if/StackTrace.o
+[ 793/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vn11/Mutex.o
+[ 794/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/s9qf/Process.o
+[ 795/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/ConditionVariableImpl.o
+[ 796/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/s9qf/SystemCertificates.o
+[ 797/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/s9qf/Image.o
+[ 798/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vn11/Messages.o
+[ 799/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/Console.o
+[ 800/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vn11/Path.o
+[ 801/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/Directory.o
+[ 802/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/CpuInfo.o
+[ 803/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/CrashHelpers.o
+[ 804/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/Encoding.o
+[ 805/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/Environment.o
+[ 806/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/Error.o
+[ 807/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/Cryptography.o
+[ 808/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/EventImpl.o
+[ 809/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/Image.o
+[ 810/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/File.o
+In file included from D:/UnityProjects/ProjectTinySamples/TinyRacing/Library/DotsRuntimeBuild/artifacts/Stevedore/il2cpp/libil2cpp/os/Posix/File.cpp:27:
+D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\DotsRuntimeBuild\artifacts\Stevedore\emscripten-win\system\include\libc\sys\errno.h:1:2: warning: redirecting incorrect #include <sys/errno.h> to <errno.h> [-W#warnings]
+#warning redirecting incorrect #include <sys/errno.h> to <errno.h>
+ ^
+1 warning generated.
+[ 811/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/FileSystemWatcher.o
+[ 812/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/LibraryLoader.o
+[ 813/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/LastError.o
+[ 814/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/Locale.o
+[ 815/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/Memory.o
+[ 816/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/MarshalAlloc.o
+[ 817/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/Path.o
+[ 818/1107  2s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/PosixHelpers.o
+[ 819/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/MemoryMappedFile.o
+[ 820/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/MutexImpl.o
+[ 821/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/NativeMethods.o
+[ 822/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/PosixWaitObject.o
+[ 823/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/SemaphoreImpl.o
+[ 824/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/SocketImpl.o
+[ 825/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/StackTrace.o
+[ 826/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/Process.o
+[ 827/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/ThreadImpl.o
+[ 828/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/TimeZone.o
+[ 829/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/Time.o
+[ 830/1107  7s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/36wb/SystemCertificates.o
+[ 831/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vn11/ReaderWriterLock.o
+[ 832/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vn11/StackTrace.o
+[ 833/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/jz1h/ThreadImpl.o
+[ 834/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vn11/Socket.o
+[ 835/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/COM.o
+[ 836/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vn11/Semaphore.o
+[ 837/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/vn11/Thread.o
+[ 838/1107  2s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/CpuInfo.o
+[ 839/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/ConditionVariableImpl.o
+[ 840/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Console.o
+[ 841/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Debug.o
+[ 842/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Cryptography.o
+[ 843/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/DllMain.o
+[ 844/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/CrashHelpers.o
+[ 845/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Environment.o
+[ 846/1107  7s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Directory.o
+[ 847/1107  7s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/EventImpl.o
+[ 848/1107  8s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Encoding.o
+[ 849/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/File.o
+[ 850/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Handle.o
+[ 851/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Image.o
+[ 852/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Initialize.o
+[ 853/1107  8s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/FileSystemWatcher.o
+[ 854/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/LastError.o
+[ 855/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/MarshalAlloc.o
+[ 856/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/MarshalStringAlloc.o
+[ 857/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Locale.o
+[ 858/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/LibraryLoader.o
+[ 859/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/MutexImpl.o
+[ 860/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Memory.o
+[ 861/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Path.o
+[ 862/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/MemoryMappedFile.o
+[ 863/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/NativeMethods.o
+[ 864/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Process.o
+[ 865/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/SemaphoreImpl.o
+[ 866/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/SocketImpl.o
+[ 867/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/SystemCertificates.o
+[ 868/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/SynchronizationContext.o
+[ 869/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/StackTrace.o
+[ 870/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/ThreadImpl.o
+[ 871/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/WindowsHelpers.o
+[ 872/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/Time.o
+[ 873/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/WindowsRuntime.o
+[ 874/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/v2jj/TimeZone.o
+[ 875/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/e3hf/BrokeredFileSystem.o
+[ 876/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/u2rb/Win32ApiWindowsGamesEmulation.o
+[ 877/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/e3hf/Locale.o
+[ 878/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/e3hf/Initialize.o
+[ 879/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/e3hf/File.o
+[ 880/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/e3hf/Environment.o
+[ 881/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/e3hf/MarshalAlloc.o
+[ 882/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/e3hf/Cryptography.o
+[ 883/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/e3hf/Win32ApiSharedEmulation.o
+[ 884/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/f981/GarbageCollector.o
+[ 885/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/e3hf/Process.o
+[ 886/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/f981/GCHandle.o
+[ 887/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/f981/WriteBarrier.o
+[ 888/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/f981/NullGC.o
+[ 889/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/e3hf/Win32ApiWinRTEmulation.o
+[ 890/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/f981/BoehmGC.o
+[ 891/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/f981/WriteBarrierValidation.o
+[ 892/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/Assert.o
+[ 893/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/DirectoryUtils.o
+[ 894/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/Exception.o
+[ 895/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/AtomicQueue.o
+[ 896/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/Il2CppHStringReference.o
+[ 897/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/Environment.o
+[ 898/1107  2s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/MemoryMappedFile.o
+[ 899/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/Memory.o
+[ 900/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/Logging.o
+[ 901/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/MarshalingUtils.o
+[ 902/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/MemoryPool.o
+[ 903/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/q6uc/BlobReader.o
+[ 904/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/mono-structs.o
+[ 905/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/Output.o
+[ 906/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/PathUtils.o
+[ 907/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/StringUtils.o
+[ 908/1107  3s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/q6uc/NativeDelegateMethodCache.o
+[ 909/1107  5s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/m6ht/Runtime.o
+[ 910/1107  3s] C_WebGL_asmjs artifacts/lib_unity_tiny_web/tinyracing-asmjs/c29o/dummy.o
+[ 911/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/q6uc/NativeSymbol.o
+[ 912/1107  6s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/q6uc/Debugger.o
+[ 913/1107  4s] C_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/q6uc/VmStringUtils.o
+[ 916/1107  4s] C_WebGL_asmjs artifacts/lib_unity_tiny_input_web/tinyracing-asmjs/c29o/dummy.o
+[ 919/1107  5s] C_WebGL_asmjs artifacts/lib_unity_tiny_web/tinyracing-asmjs/fat6/HTMLWrapper.o
+[ 926/1107  6s] C_WebGL_asmjs artifacts/lib_unity_tiny_web/tinyracing-asmjs/fat6/SendMessageCallbackHandler.o
+[ 948/1107  2s] Csc artifacts/Unity.LowLevel.dll/tinyracing-asmjs/Unity.LowLevel.dll (+2 others)
+[ 949/1107  6s] C_WebGL_asmjs artifacts/lib_unity_tiny_audio_web/tinyracing-asmjs/c29o/dummy.o
+[ 950/1107  3s] C_WebGL_asmjs artifacts/lib_unity_platforms_runloop/tinyracing-asmjs/f5is/HTMLWrapper.o
+[ 951/1107  0s] Csc artifacts/Unity.Tiny.Burst.dll/tinyracing-asmjs/Unity.Tiny.Burst.dll (+2 others)
+[ 952/1107  4s] C_WebGL_asmjs artifacts/lib_unity_platforms_runloop/tinyracing-asmjs/c29o/dummy.o
+[ 953/1107  1s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/mscorlib.dll
+[ 954/1107  1s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/UnsafeUtility.dll (+pdb)
+[ 955/1107  1s] Csc artifacts/Unity.Burst.dll/tinyracing-asmjs/Unity.Burst.dll (+2 others)
+[ 956/1107  3s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/netstandard.dll
+[ 957/1107  1s] Csc artifacts/Unity.ZeroJobs.dll/tinyracing-asmjs/Unity.ZeroJobs.dll (+2 others)
+[ 958/1107  2s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Burst.dll (+pdb)
+[ 959/1107  5s] Lib_WebGL_asmjs artifacts/lib_unity_lowlevel/tinyracing-asmjs/lib_unity_lowlevel.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 960/1107  3s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.LowLevel.dll (+pdb)
+[ 961/1107  1s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Burst.dll (+pdb)
+[ 962/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/1g7o/xxhash.o
+[ 963/1107  1s] Csc artifacts/Unity.Platforms.Common.dll/tinyracing-asmjs/Unity.Platforms.Common.dll (+2 others)
+[ 964/1107  2s] Csc artifacts/Unity.Platforms.RunLoop.dll/tinyracing-asmjs/Unity.Platforms.RunLoop.dll (+2 others)
+[ 965/1107  1s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Platforms.Common.dll (+pdb)
+[ 966/1107  3s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.ZeroJobs.dll (+pdb)
+[ 967/1107  3s] Csc artifacts/Unity.Mathematics.dll/tinyracing-asmjs/Unity.Mathematics.dll (+2 others)
+[ 968/1107  2s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Mathematics.dll (+pdb)
+[ 969/1107  2s] Csc artifacts/Unity.Collections.dll/tinyracing-asmjs/Unity.Collections.dll (+2 others)
+[ 970/1107  3s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Platforms.RunLoop.dll (+pdb)
+[ 971/1107  7s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_burst/tinyracing-asmjs/lib_unity_tiny_burst.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\DotsRuntimeBuild\artifacts\Stevedore\winpython2-x64\WinPython-64bit-2.7.13.1Zero\python-2.7.13.amd64\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\DotsRuntimeBuild\artifacts\Stevedore\winpython2-x64\WinPython-64bit-2.7.13.1Zero\python-2.7.13.amd64\lib\multiprocessing\util.py", line 321, in _exit_function
+    p._popen.terminate()
+  File "D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\DotsRuntimeBuild\artifacts\Stevedore\winpython2-x64\WinPython-64bit-2.7.13.1Zero\python-2.7.13.amd64\lib\multiprocessing\forking.py", line 312, in terminate
+    _subprocess.TerminateProcess(int(self._handle), TERMINATE)
+WindowsError: [Error 5] 
+Error in sys.exitfunc:
+Traceback (most recent call last):
+  File "D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\DotsRuntimeBuild\artifacts\Stevedore\winpython2-x64\WinPython-64bit-2.7.13.1Zero\python-2.7.13.amd64\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\DotsRuntimeBuild\artifacts\Stevedore\winpython2-x64\WinPython-64bit-2.7.13.1Zero\python-2.7.13.amd64\lib\multiprocessing\util.py", line 321, in _exit_function
+    p._popen.terminate()
+  File "D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\DotsRuntimeBuild\artifacts\Stevedore\winpython2-x64\WinPython-64bit-2.7.13.1Zero\python-2.7.13.amd64\lib\multiprocessing\forking.py", line 312, in terminate
+    _subprocess.TerminateProcess(int(self._handle), TERMINATE)
+WindowsError: [Error 5] 
+[ 972/1107  2s] Csc artifacts/Unity.Tiny.Codec.dll/tinyracing-asmjs/Unity.Tiny.Codec.dll (+2 others)
+[ 973/1107  2s] Csc artifacts/Unity.Jobs.dll/tinyracing-asmjs/Unity.Jobs.dll (+2 others)
+[ 974/1107  3s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Collections.dll (+pdb)
+[ 975/1107  1s] Csc artifacts/Unity.Mathematics.Extensions.dll/tinyracing-asmjs/Unity.Mathematics.Extensions.dll (+2 others)
+[ 976/1107  2s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Codec.dll (+pdb)
+[ 977/1107  2s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Mathematics.Extensions.dll (+pdb)
+[ 978/1107  4s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Jobs.dll (+pdb)
+[ 979/1107  2s] Csc artifacts/Unity.Entities.dll/tinyracing-asmjs/Unity.Entities.dll (+2 others)
+[ 980/1107  1s] Csc artifacts/Unity.Transforms.dll/tinyracing-asmjs/Unity.Transforms.dll (+2 others)
+[ 981/1107  2s] Csc artifacts/Unity.Entities.Runtime.dll/tinyracing-asmjs/Unity.Entities.Runtime.dll (+2 others)
+[ 982/1107  2s] Csc artifacts/Unity.Tiny.Core.dll/tinyracing-asmjs/Unity.Tiny.Core.dll (+2 others)
+[ 983/1107  2s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Transforms.dll (+pdb)
+[ 984/1107  2s] Csc artifacts/Unity.Tiny.Animation.dll/tinyracing-asmjs/Unity.Tiny.Animation.dll (+2 others)
+[ 985/1107  8s] Lib_WebGL_asmjs artifacts/lib_unity_zerojobs/tinyracing-asmjs/lib_unity_zerojobs.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\DotsRuntimeBuild\artifacts\Stevedore\winpython2-x64\WinPython-64bit-2.7.13.1Zero\python-2.7.13.amd64\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\DotsRuntimeBuild\artifacts\Stevedore\winpython2-x64\WinPython-64bit-2.7.13.1Zero\python-2.7.13.amd64\lib\multiprocessing\util.py", line 321, in _exit_function
+    p._popen.terminate()
+  File "D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\DotsRuntimeBuild\artifacts\Stevedore\winpython2-x64\WinPython-64bit-2.7.13.1Zero\python-2.7.13.amd64\lib\multiprocessing\forking.py", line 312, in terminate
+    _subprocess.TerminateProcess(int(self._handle), TERMINATE)
+WindowsError: [Error 5] 
+Error in sys.exitfunc:
+Traceback (most recent call last):
+  File "D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\DotsRuntimeBuild\artifacts\Stevedore\winpython2-x64\WinPython-64bit-2.7.13.1Zero\python-2.7.13.amd64\lib\atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\DotsRuntimeBuild\artifacts\Stevedore\winpython2-x64\WinPython-64bit-2.7.13.1Zero\python-2.7.13.amd64\lib\multiprocessing\util.py", line 321, in _exit_function
+    p._popen.terminate()
+  File "D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\DotsRuntimeBuild\artifacts\Stevedore\winpython2-x64\WinPython-64bit-2.7.13.1Zero\python-2.7.13.amd64\lib\multiprocessing\forking.py", line 312, in terminate
+    _subprocess.TerminateProcess(int(self._handle), TERMINATE)
+WindowsError: [Error 5] 
+[ 986/1107  3s] Csc artifacts/Unity.Physics.dll/tinyracing-asmjs/Unity.Physics.dll (+2 others)
+D:\UnityProjects\ProjectTinySamples\TinyRacing\Library\PackageCache\com.unity.physics@0.2.5-preview.1\Unity.Physics\Collision\Geometry\ConvexHull.cs(27,27): warning CS0169: �Ӳ�ʹ���ֶΡ�ConvexHull.Edge.m_Padding��
+[ 987/1107  5s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Entities.dll (+pdb)
+[ 988/1107  2s] Csc artifacts/Unity.Tiny.Image2D.dll/tinyracing-asmjs/Unity.Tiny.Image2D.dll (+2 others)
+[ 989/1107  3s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Entities.Runtime.dll (+pdb)
+[ 990/1107  2s] Csc artifacts/Unity.Tiny.Rendering.dll/tinyracing-asmjs/Unity.Tiny.Rendering.dll (+2 others)
+[ 991/1107  2s] Csc artifacts/Unity.Tiny.Web.dll/tinyracing-asmjs/Unity.Tiny.Web.dll (+2 others)
+[ 992/1107  2s] Csc artifacts/Unity.Tiny.IO.dll/tinyracing-asmjs/Unity.Tiny.IO.dll (+2 others)
+[ 993/1107  2s] Csc artifacts/Unity.Tiny.Input.dll/tinyracing-asmjs/Unity.Tiny.Input.dll (+2 others)
+[ 994/1107  3s] Csc artifacts/Unity.Tiny.Audio.dll/tinyracing-asmjs/Unity.Tiny.Audio.dll (+2 others)
+[ 995/1107  2s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Animation.dll (+pdb)
+[ 996/1107  3s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Core.dll (+pdb)
+[ 997/1107  0s] Csc artifacts/Unity.Tiny.Image2D.Web.dll/tinyracing-asmjs/Unity.Tiny.Image2D.Web.dll (+2 others)
+[ 998/1107  1s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Image2D.dll (+pdb)
+[ 999/1107  0s] Csc artifacts/Unity.Tiny.Scenes.dll/tinyracing-asmjs/Unity.Tiny.Scenes.dll (+2 others)
+[1000/1107  2s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Rendering.dll (+pdb)
+[1001/1107  2s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Web.dll (+pdb)
+[1002/1107  5s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_codec/tinyracing-asmjs/lib_unity_tiny_codec.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1003/1107  0s] Csc artifacts/Unity.Tiny.Input.Web.dll/tinyracing-asmjs/Unity.Tiny.Input.Web.dll (+2 others)
+[1004/1107  4s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Physics.dll (+pdb)
+[1005/1107  1s] Csc artifacts/Unity.Tiny.Audio.Web.dll/tinyracing-asmjs/Unity.Tiny.Audio.Web.dll (+2 others)
+[1006/1107  7s] Lib_WebGL_asmjs artifacts/lib_unity_platforms_common/tinyracing-asmjs/lib_unity_platforms_common.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1007/1107  7s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_core/tinyracing-asmjs/lib_unity_tiny_core.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1008/1107  1s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Input.dll (+pdb)
+[1009/1107  1s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Image2D.Web.dll (+pdb)
+[1010/1107  2s] Csc artifacts/Unity.Tiny.UnityInstance.dll/tinyracing-asmjs/Unity.Tiny.UnityInstance.dll (+2 others)
+[1011/1107 32s] Lib_WebGL_asmjs artifacts/libil2cpptiny/tinyracing-asmjs/libil2cpptiny.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1012/1107  4s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.IO.dll (+pdb)
+[1013/1107  3s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Audio.dll (+pdb)
+[1014/1107  2s] Csc artifacts/Unity.Tiny.Rendering.Native.dll/tinyracing-asmjs/Unity.Tiny.Rendering.Native.dll (+2 others)
+[1015/1107  2s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Input.Web.dll (+pdb)
+[1016/1107  0s] Csc artifacts/Unity.Runtime.EntryPoint.exe/tinyracing-asmjs/Unity.Runtime.EntryPoint.exe (+2 others)
+[1017/1107  2s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Audio.Web.dll (+pdb)
+[1018/1107  3s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Scenes.dll (+pdb)
+[1019/1107  1s] Csc artifacts/Unity.Tiny.RendererExtras.dll/tinyracing-asmjs/Unity.Tiny.RendererExtras.dll (+2 others)
+[1020/1107  2s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.UnityInstance.dll (+pdb)
+[1021/1107  2s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_image2d_web/tinyracing-asmjs/lib_unity_tiny_image2d_web.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1022/1107  1s] Csc artifacts/Unity.Tiny.Particles.dll/tinyracing-asmjs/Unity.Tiny.Particles.dll (+2 others)
+[1023/1107  1s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Runtime.EntryPoint.exe (+pdb)
+[1024/1107  1s] Csc artifacts/TinyRacing.dll/tinyracing-asmjs/TinyRacing.dll (+2 others)
+[1025/1107  2s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.RendererExtras.dll (+pdb)
+[1026/1107  6s] Lib_WebGL_asmjs artifacts/lib_unity_platforms_runloop/tinyracing-asmjs/lib_unity_platforms_runloop.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1027/1107  7s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_web/tinyracing-asmjs/lib_unity_tiny_web.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1028/1107  2s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/TinyRacing.dll (+pdb)
+[1029/1107  5s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Rendering.Native.dll (+pdb)
+[1030/1107  3s] ILPostProcessorRunner artifacts/TinyRacing/tinyracing-asmjs/post_ilprocessing/Unity.Tiny.Particles.dll (+pdb)
+[1031/1107  2s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_audio_web/tinyracing-asmjs/lib_unity_tiny_audio_web.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1032/1107  9s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_io/tinyracing-asmjs/lib_unity_tiny_io.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1033/1107  3s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_input_web/tinyracing-asmjs/lib_unity_tiny_input_web.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[1034/1107  3s] TypeRegGen artifacts/TinyRacing/tinyracing-asmjs/post_typereg/TinyRacing.dll (+69 others)
+[BUSY      14s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_rendering_native/tinyracing-asmjs/lib_unity_tiny_rendering_native.bc
+[1035/1107  6s] UnityLinker artifacts/TinyRacing/tinyracing-asmjs_stripped/TinyRacing.dll (+69 others)
+[1036/1107 16s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_rendering_native/tinyracing-asmjs/lib_unity_tiny_rendering_native.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[BUSY       8s] Il2Cpp artifacts/TinyRacing/tinyracing-asmjs_stripped/il2cpp-src/driver.cpp (+62 others)
+[1037/1107 13s] Il2Cpp artifacts/TinyRacing/tinyracing-asmjs_stripped/il2cpp-src/driver.cpp (+62 others)
+Running il2cpp.exe in server GC mode.
+[1038/1107  4s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/driver.o
+[1039/1107  6s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/GenericMethods3.o
+[1040/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/GenericMethods4.o
+[1041/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/GenericMethods5.o
+[1042/1107  8s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/GenericMethods1.o
+[1043/1107  8s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/GenericMethods2.o
+[1044/1107  9s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/GenericMethods6.o
+[1045/1107  9s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/GenericMethods.o
+[1046/1107  8s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/GenericMethods7.o
+[1047/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/GenericMethods8.o
+[1048/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/GenericMethods9.o
+[1049/1107  8s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Generics.o
+[1050/1107  8s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Generics2.o
+[1051/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Generics4.o
+[1052/1107  8s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Generics1.o
+[1053/1107  8s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Generics3.o
+[1054/1107  4s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/TinyTypes.o
+[1055/1107  8s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Generics5.o
+[1056/1107  6s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Il2CppGenericComDefinitions.o
+[1057/1107  9s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Generics7.o
+[1058/1107  9s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Generics6.o
+[1059/1107  8s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Generics9.o
+[1060/1107  9s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Generics8.o
+[1061/1107  3s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/StringLiterals.o
+[1062/1107  8s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/StaticConstructors.o
+[1063/1107  4s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Runtime.EntryPoint.o
+[1064/1107  6s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/ModuleInitializers.o
+[1065/1107  6s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/StaticInitialization.o
+[1066/1107  4s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Input.Web.o
+[1067/1107  3s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Audio.Web.o
+[1068/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/TinyRacing.o
+[1069/1107  3s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Burst.o
+[1070/1107  5s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Web.o
+[1071/1107  6s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.ZeroJobs.o
+[1072/1107  4s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Jobs.o
+[1073/1107  5s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.LowLevel.o
+[1074/1107 13s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Rendering.Native.o
+[1075/1107  4s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Input.o
+[1076/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Transforms.o
+[1077/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Burst.o
+[1078/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Mathematics.o
+[1079/1107  6s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.RendererExtras.o
+[1080/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Collections.o
+[1081/1107 12s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Entities.o
+[1082/1107  4s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Animation.o
+[1083/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Core.o
+[1084/1107  6s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Rendering.o
+[1085/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Audio.o
+[1086/1107  5s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Particles.o
+[1087/1107  5s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/netstandard.o
+[1088/1107  6s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/mscorlib.o
+[1089/1107  3s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Image2D.Web.o
+[1090/1107  5s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Image2D.o
+[1091/1107  3s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/UnsafeUtility.o
+[1092/1107  4s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Platforms.Common.o
+[1093/1107  5s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Mathematics.Extensions.o
+[1094/1107  3s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Platforms.RunLoop.o
+[1095/1107  3s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.UnityInstance.o
+[1096/1107  5s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Scenes.o
+[1097/1107  5s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Entities.Runtime.o
+[1098/1107 16s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Physics.o
+[1099/1107  4s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.Codec.o
+[1100/1107  7s] C_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/apl3/Unity.Tiny.IO.o
+[BUSY       6s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY      16s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY      26s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY      36s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY      46s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY      56s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY      66s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY      76s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY      86s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY      96s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY     106s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY     116s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY     126s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY     137s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY     147s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[BUSY     157s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[1101/1107 158s] Link_WebGL_asmjs artifacts/TinyRacing/tinyracing-asmjs/TinyRacing.html (+3 others)
+[1102/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/TinyRacing.mem
+[1103/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/TinyRacing.js
+[1104/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/TinyRacing.asm.js
+[1105/1107  0s] CopyTool ../../Builds/tinyracing-asmjs/TinyRacing.html
+[           1s] Destroying Roslyn Shared Compiler Server
+*** Bee build success (430.13 seconds - 0:07:10), 435 items updated
