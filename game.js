@@ -80,7 +80,7 @@ b(window.resHost+"/TinyRacing.mem").then((r) => {
     // Module.wasm = r;
     Module.mem = r;
     require('./TinyRacing.asm.js');
-    require('./TinyRacing.js');
+    require('./TinyRacingNew.js');
 });
 
 // Promise.all([b('TinyRacing.js'), b('TinyRacing.wasm')]).then((r) => {
