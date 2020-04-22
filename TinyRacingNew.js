@@ -1,4 +1,4 @@
-var Module = Module;
+var Module = window.Module;
 
 function out(text) {
     console.log(text)
@@ -64,8 +64,10 @@ function ready() {
             _freeArrayFromHeap(bytesOnHeap)
         }
     };
-    global["SendMessage"] = _sendMessage;
-    module["SendMessage"] = _sendMessage
+    if(global)
+        global["SendMessage"] = _sendMessage;
+    if(module)
+        module["SendMessage"] = _sendMessage
 })(this, Module);
 
 function abort(what) {
@@ -2875,7 +2877,10 @@ function __emscripten_fetch_xhr(fetch, onsuccess, onerror, onprogress, onreadyst
         onerror(fetch, 0, "no url specified!");
         return
     }
-    var url_ = UTF8ToString(url);
+    // var url_ = UTF8ToString(url);
+    var url_ = window.resHost+"/"+UTF8ToString(url);
+    console.log("get "+url_);
+
     var fetch_attr = fetch + 112;
     var requestMethod = UTF8ToString(fetch_attr);
     if (!requestMethod) requestMethod = "GET";
@@ -3055,13 +3060,13 @@ function _emscripten_webgl_do_create_context(target, attributes) {
     contextAttributes.explicitSwapControl = HEAP32[a + (44 >> 2)];
     contextAttributes.proxyContextToMainThread = HEAP32[a + (48 >> 2)];
     contextAttributes.renderViaOffscreenBackBuffer = HEAP32[a + (52 >> 2)];
-    var canvas = __findCanvasEventTarget(target);
-    if (!canvas) {
-        return 0
-    }
-    if (contextAttributes.explicitSwapControl) {
-        return 0
-    }
+    // var canvas = __findCanvasEventTarget(target);
+    // if (!canvas) {
+    //     return 0
+    // }
+    // if (contextAttributes.explicitSwapControl) {
+    //     return 0
+    // }
     var contextHandle = GL.createContext(canvas, contextAttributes);
     return contextHandle
 }
@@ -3759,14 +3764,14 @@ function _glViewport(x0, x1, x2, x3) {
 }
 
 function _js_html_audioCheckLoad(audioClipIdx) {
-    var WORKING_ON_IT = 0;
-    var SUCCESS = 1;
-    var FAILED = 2;
-    if (!this.audioContext || audioClipIdx < 0) return FAILED;
-    if (this.audioBuffers[audioClipIdx] == null) return FAILED;
-    if (this.audioBuffers[audioClipIdx] === "loading") return WORKING_ON_IT;
-    if (this.audioBuffers[audioClipIdx] === "error") return FAILED;
-    return SUCCESS
+    // var WORKING_ON_IT = 0;
+    // var SUCCESS = 1;
+    // var FAILED = 2;
+    // if (!this.audioContext || audioClipIdx < 0) return FAILED;
+    // if (this.audioBuffers[audioClipIdx] == null) return FAILED;
+    // if (this.audioBuffers[audioClipIdx] === "loading") return WORKING_ON_IT;
+    // if (this.audioBuffers[audioClipIdx] === "error") return FAILED;
+    // return SUCCESS
 }
 
 function _js_html_audioFree(audioClipIdx) {
@@ -3786,7 +3791,7 @@ function _js_html_audioIsPlaying(audioSourceIdx) {
 }
 
 function _js_html_audioIsUnlocked() {
-    return this.unlocked
+    // return this.unlocked
 }
 
 function _js_html_audioPause() {
@@ -3796,112 +3801,112 @@ function _js_html_audioPause() {
 }
 
 function _js_html_audioPlay(audioClipIdx, audioSourceIdx, volume, pitch, pan, loop) {
-    if (!this.audioContext || audioClipIdx < 0 || audioSourceIdx < 0) return false;
-    if (this.audioContext.state !== "running") return false;
-    var srcBuffer = this.audioBuffers[audioClipIdx];
-    if (!srcBuffer || typeof srcBuffer === "string") return false;
-    var sourceNode = this.audioContext.createBufferSource();
-    sourceNode.buffer = srcBuffer;
-    sourceNode.playbackRate.value = pitch;
-    var panNode = this.audioContext.createPanner();
-    panNode.panningModel = "equalpower";
-    sourceNode.panNode = panNode;
-    var gainNode = this.audioContext.createGain();
-    gainNode.buffer = srcBuffer;
-    sourceNode.gainNode = gainNode;
-    sourceNode.connect(gainNode);
-    sourceNode.gainNode.connect(panNode);
-    sourceNode.panNode.connect(this.audioContext.destination);
-    ut._HTML.audio_setGain(sourceNode, volume);
-    ut._HTML.audio_setPan(sourceNode, pan);
-    sourceNode.loop = loop;
-    if (this.audioSources[audioSourceIdx] != undefined) this.audioSources[audioSourceIdx].stop();
-    this.audioSources[audioSourceIdx] = sourceNode;
-    sourceNode.onended = function (event) {
-        sourceNode.stop();
-        sourceNode.isPlaying = false
-    };
-    sourceNode.start();
-    sourceNode.isPlaying = true;
+    // if (!this.audioContext || audioClipIdx < 0 || audioSourceIdx < 0) return false;
+    // if (this.audioContext.state !== "running") return false;
+    // var srcBuffer = this.audioBuffers[audioClipIdx];
+    // if (!srcBuffer || typeof srcBuffer === "string") return false;
+    // var sourceNode = this.audioContext.createBufferSource();
+    // sourceNode.buffer = srcBuffer;
+    // sourceNode.playbackRate.value = pitch;
+    // var panNode = this.audioContext.createPanner();
+    // panNode.panningModel = "equalpower";
+    // sourceNode.panNode = panNode;
+    // var gainNode = this.audioContext.createGain();
+    // gainNode.buffer = srcBuffer;
+    // sourceNode.gainNode = gainNode;
+    // sourceNode.connect(gainNode);
+    // sourceNode.gainNode.connect(panNode);
+    // sourceNode.panNode.connect(this.audioContext.destination);
+    // ut._HTML.audio_setGain(sourceNode, volume);
+    // ut._HTML.audio_setPan(sourceNode, pan);
+    // sourceNode.loop = loop;
+    // if (this.audioSources[audioSourceIdx] != undefined) this.audioSources[audioSourceIdx].stop();
+    // this.audioSources[audioSourceIdx] = sourceNode;
+    // sourceNode.onended = function (event) {
+    //     sourceNode.stop();
+    //     sourceNode.isPlaying = false
+    // };
+    // sourceNode.start();
+    // sourceNode.isPlaying = true;
     return true
 }
 
 function _js_html_audioResume() {
-    if (this.audioContext && this.audioContext.resume) {
-        this.audioContext.resume()
-    }
+    // if (this.audioContext && this.audioContext.resume) {
+    //     this.audioContext.resume()
+    // }
 }
 
 function _js_html_audioSetPan(audioSourceIdx, pan) {
-    if (!this.audioContext || audioSourceIdx < 0) return false;
-    var sourceNode = this.audioSources[audioSourceIdx];
-    if (!sourceNode) return false;
-    ut._HTML.audio_setPan(sourceNode, pan);
-    return true
+    // if (!this.audioContext || audioSourceIdx < 0) return false;
+    // var sourceNode = this.audioSources[audioSourceIdx];
+    // if (!sourceNode) return false;
+    // ut._HTML.audio_setPan(sourceNode, pan);
+    // return true
 }
 
 function _js_html_audioSetPitch(audioSourceIdx, pitch) {
-    if (!this.audioContext || audioSourceIdx < 0) return false;
-    var sourceNode = this.audioSources[audioSourceIdx];
-    if (!sourceNode) return false;
-    sourceNode.playbackRate.value = pitch;
-    return true
+    // if (!this.audioContext || audioSourceIdx < 0) return false;
+    // var sourceNode = this.audioSources[audioSourceIdx];
+    // if (!sourceNode) return false;
+    // sourceNode.playbackRate.value = pitch;
+    // return true
 }
 
 function _js_html_audioSetVolume(audioSourceIdx, volume) {
-    if (!this.audioContext || audioSourceIdx < 0) return false;
-    var sourceNode = this.audioSources[audioSourceIdx];
-    if (!sourceNode) return false;
-    ut._HTML.audio_setGain(sourceNode, volume);
-    return true
+    // if (!this.audioContext || audioSourceIdx < 0) return false;
+    // var sourceNode = this.audioSources[audioSourceIdx];
+    // if (!sourceNode) return false;
+    // ut._HTML.audio_setGain(sourceNode, volume);
+    // return true
 }
 
 function _js_html_audioStartLoadFile(audioClipName, audioClipIdx) {
-    if (!this.audioContext || audioClipIdx < 0) return -1;
-    audioClipName = UTF8ToString(audioClipName);
-    var url = audioClipName;
-    if (url.substring(0, 9) === "ut-asset:") url = UT_ASSETS[url.substring(9)];
-    var self = this;
-    var request = new XMLHttpRequest;
-    self.audioBuffers[audioClipIdx] = "loading";
-    request.open("GET", url, true);
-    request.responseType = "arraybuffer";
-    request.onload = function () {
-        self.audioContext.decodeAudioData(request.response, function (buffer) {
-            self.audioBuffers[audioClipIdx] = buffer
-        })
-    };
-    request.onerror = function () {
-        self.audioBuffers[audioClipIdx] = "error"
-    };
-    try {
-        request.send()
-    } catch (e) {
-        self.audioBuffers[audioClipIdx] = "error"
-    }
-    return audioClipIdx
+    // if (!this.audioContext || audioClipIdx < 0) return -1;
+    // audioClipName = UTF8ToString(audioClipName);
+    // var url = audioClipName;
+    // if (url.substring(0, 9) === "ut-asset:") url = UT_ASSETS[url.substring(9)];
+    // var self = this;
+    // var request = new XMLHttpRequest;
+    // self.audioBuffers[audioClipIdx] = "loading";
+    // request.open("GET", url, true);
+    // request.responseType = "arraybuffer";
+    // request.onload = function () {
+    //     self.audioContext.decodeAudioData(request.response, function (buffer) {
+    //         self.audioBuffers[audioClipIdx] = buffer
+    //     })
+    // };
+    // request.onerror = function () {
+    //     self.audioBuffers[audioClipIdx] = "error"
+    // };
+    // try {
+    //     request.send()
+    // } catch (e) {
+    //     self.audioBuffers[audioClipIdx] = "error"
+    // }
+    // return audioClipIdx
 }
 
 function _js_html_audioStop(audioSourceIdx, dostop) {
-    if (!this.audioContext || audioSourceIdx < 0) return;
-    var sourceNode = this.audioSources[audioSourceIdx];
-    if (!sourceNode) return;
-    sourceNode.onended = null;
-    this.audioSources[audioSourceIdx] = null;
-    if (sourceNode.isPlaying && dostop) {
-        sourceNode.stop();
-        sourceNode.isPlaying = false
-    }
+    // if (!this.audioContext || audioSourceIdx < 0) return;
+    // var sourceNode = this.audioSources[audioSourceIdx];
+    // if (!sourceNode) return;
+    // sourceNode.onended = null;
+    // this.audioSources[audioSourceIdx] = null;
+    // if (sourceNode.isPlaying && dostop) {
+    //     sourceNode.stop();
+    //     sourceNode.isPlaying = false
+    // }
 }
 
 function _js_html_audioUnlock() {
-    var self = this;
-    if (self.unlocked || !self.audioContext || typeof self.audioContext.resume !== "function") return;
-    document.addEventListener("click", ut._HTML.unlock, true);
-    document.addEventListener("touchstart", ut._HTML.unlock, true);
-    document.addEventListener("touchend", ut._HTML.unlock, true);
-    document.addEventListener("keydown", ut._HTML.unlock, true);
-    document.addEventListener("keyup", ut._HTML.unlock, true)
+    // var self = this;
+    // if (self.unlocked || !self.audioContext || typeof self.audioContext.resume !== "function") return;
+    // document.addEventListener("click", ut._HTML.unlock, true);
+    // document.addEventListener("touchstart", ut._HTML.unlock, true);
+    // document.addEventListener("touchend", ut._HTML.unlock, true);
+    // document.addEventListener("keydown", ut._HTML.unlock, true);
+    // document.addEventListener("keyup", ut._HTML.unlock, true)
 }
 
 function _js_html_checkLoadImage(idx) {
@@ -4147,6 +4152,7 @@ function _js_html_initImageLoading() {
         }
     };
     ut._HTML.loadWebPFallback = function (url, idx) {
+        url=window.resHost+"/"+url;
         function decode_base64(base64) {
             var size = base64.length;
             while (base64.charCodeAt(size - 1) == 61) size--;
@@ -4228,7 +4234,7 @@ function _js_html_loadImage(colorName, maskName) {
         imgColor.onerror = function () {
             ut._HTML.images[idx].loaderror = true
         };
-        imgColor.src = colorName
+        imgColor.src = window.resHost+"/"+colorName;
     }
     if (maskName) {
         var imgMask = new Image;
@@ -4330,8 +4336,8 @@ function _js_inputInit() {
     var inp = ut._HTML.input;
     var canvas = ut._HTML.canvasElement;
     if (!canvas) return false;
-    canvas.requestPointerLock = canvas.requestPointerLock || canvas.mozRequestPointerLock;
-    document.exitPointerLock = document.exitPointerLock || document.mozExitPointerLock;
+    // canvas.requestPointerLock = canvas.requestPointerLock || canvas.mozRequestPointerLock;
+    // document.exitPointerLock = document.exitPointerLock || document.mozExitPointerLock;
     inp.getStream = function (stream, maxLen, destPtr) {
         destPtr >>= 2;
         var l = stream.length;
@@ -4345,11 +4351,11 @@ function _js_inputInit() {
         var hasPointerLock = document.pointerLockElement === canvas || document.mozPointerLockElement === canvas;
         if (ut.inpSavedMouseMode == 0) {
             document.body.style.cursor = "auto";
-            if (hasPointerLock) document.exitPointerLock();
+            // if (hasPointerLock) document.exitPointerLock();
             ut.inpActiveMouseMode = 0
         } else if (ut.inpSavedMouseMode == 1) {
             document.body.style.cursor = "none";
-            if (hasPointerLock) document.exitPointerLock();
+            // if (hasPointerLock) document.exitPointerLock();
             ut.inpActiveMouseMode = 1
         } else {
             canvas.requestPointerLock()
